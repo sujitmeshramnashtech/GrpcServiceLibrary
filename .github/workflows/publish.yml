@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '6.0.0'
 
       - name: Restore dependencies
         run: dotnet restore
@@ -31,4 +31,6 @@ jobs:
         run: dotnet pack --configuration Release --no-build --output ./artifacts
 
       - name: Publish to GitHub Packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: dotnet nuget push ./artifacts/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/sujitmeshramnashtech/index.json"
