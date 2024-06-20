@@ -755,7 +755,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Grpc.AspNetCore >= 2.40.0",
-      "Grpc.Tools >= 2.40.0",
       "Microsoft.Extensions.Logging.Abstractions >= 6.0.0"
     ]
   },
@@ -765,11 +764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/GRPC Gateway POC/GrpcServiceLibrary/GrpcServiceLibrary.csproj",
+      "projectUniqueName": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/Current Working POC/Github Nuget GRPC POC/GRPC Gateway POC Nuget/GrpcServiceLibrary/GrpcServiceLibrary.csproj",
       "projectName": "GrpcServiceLibrary",
-      "projectPath": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/GRPC Gateway POC/GrpcServiceLibrary/GrpcServiceLibrary.csproj",
+      "projectPath": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/Current Working POC/Github Nuget GRPC POC/GRPC Gateway POC Nuget/GrpcServiceLibrary/GrpcServiceLibrary.csproj",
       "packagesPath": "/home/nashtech/.nuget/packages/",
-      "outputPath": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/GRPC Gateway POC/GrpcServiceLibrary/obj/",
+      "outputPath": "/home/nashtech/Nashtech Sujit/Tech Hub/POCs/Current Working POC/Github Nuget GRPC POC/GRPC Gateway POC Nuget/GrpcServiceLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nashtech/.nuget/NuGet/NuGet.Config"
@@ -802,11 +801,6 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Grpc.AspNetCore": {
-            "target": "Package",
-            "version": "[2.40.0, )"
-          },
-          "Grpc.Tools": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.40.0, )"
           },

@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("GrpcServiceLibrary")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Nashtech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A gRPC service library using EF Core and dummy data.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9f1d91ea71290b5a063d555e81db4bd74748e44")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcServiceLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcServiceLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

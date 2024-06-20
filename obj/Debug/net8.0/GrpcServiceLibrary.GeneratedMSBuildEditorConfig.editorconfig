@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GrpcServiceLibrary
-build_property.ProjectDir = /home/nashtech/Nashtech Sujit/Tech Hub/POCs/GRPC Gateway POC/GrpcServiceLibrary/
+build_property.ProjectDir = /home/nashtech/Nashtech Sujit/Tech Hub/POCs/Current Working POC/Github Nuget GRPC POC/GRPC Gateway POC Nuget/GrpcServiceLibrary/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

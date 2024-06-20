@@ -9,7 +9,6 @@
       "GrpcServiceLibrary/1.0.0": {
         "dependencies": {
           "Grpc.AspNetCore": "2.40.0",
-          "Grpc.Tools": "2.40.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         },
         "runtime": {
